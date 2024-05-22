@@ -13,9 +13,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 230px;
 }
 
-nav > ul{
+nav>ul {
     align-items: center;
 }
 
@@ -51,4 +52,39 @@ nav a {
     font-style: normal;
     font-weight: 700;
     padding: 18px 35px 19px 36px;
+}
+
+header {
+    background: #FFF8F3;
+}
+
+/* banner related styles */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-greetings {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-text {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    width: 585px;
+}
+
+.banner img {
+    width: 584px;
+    height: 676px;
 }
